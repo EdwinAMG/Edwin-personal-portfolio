@@ -8,9 +8,24 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <LinkedInIcon />
-        <GitHubIcon />
-        <MicrosoftIcon />
+        <a
+          href="https://www.linkedin.com/in/edwin-andres-monsalve-giraldo-6934b126a/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <LinkedInIcon />
+        </a>
+
+        <a href="https://github.com/EdwinAMG" target="_blank" rel="noreferrer">
+          <GitHubIcon />
+        </a>
+        <a
+          href="https://teams.microsoft.com/l/chat/0/0?users=edwin.monsalve@eia.edu.co"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <MicrosoftIcon />
+        </a>
       </div>
       <p> &copy;2023 Edwin Monsalve</p>
     </div>

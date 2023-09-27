@@ -1,7 +1,7 @@
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
+import CodeIcon from "@mui/icons-material/Code";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 import "../Styles/Home.css";
 
 function Home() {
@@ -11,9 +11,9 @@ function Home() {
         <h2>Hi, My Name is Edwin Andres</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating</p>
-          <LinkedInIcon />
-          <GitHubIcon />
-          <EmailIcon />
+          <CodeIcon />
+          <FontAwesomeIcon icon={faReact} />
+          <CodeIcon />
         </div>
       </div>
       <div className="skills">
