@@ -1,13 +1,15 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import "../Styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
+
   return (
     <div className="project">
       <h1 className="projectN"> {project.name}</h1>
@@ -30,6 +32,9 @@ function ProjectDisplay() {
             <LanguageIcon />
           </a>
         )}
+        <Link className="Arrow" to="/projects">
+          <ArrowBackIcon />
+        </Link>
       </div>
     </div>
   );
