@@ -13,7 +13,7 @@
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 600px;
   border-radius: 10px;
 }
 
@@ -25,6 +25,8 @@
 .project svg {
   font-size: 60px;
   color: #3e497a;
+  display: inline-block;
+  margin: 5px;
 }
 @media only screen and (max-width: 712px) {
   .project .projectN {
@@ -58,11 +60,12 @@
     border-radius: 10px;
   }
   .project .des {
-    font-size: 25px;
+    font-size: 23px;
     color: #3e497a;
   }
   .project svg {
     font-size: 45px;
     color: #3e497a;
+
   }
 }

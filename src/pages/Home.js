@@ -4,7 +4,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import "../Styles/Home.css";
 
+const PDF_FILE_URL =
+  "portfolio-edwinmonsalve.web.app/Edwin Andres Monsalve Giraldo.pdf";
+
 function Home() {
+  const downloadFileAtURL = (url) => {
+    fetch(url)
+      .then((response) => response.blob)
+      .then((blob) => {
+        const blobURL = window.URL.createObjectURL(new Blob([blob]));
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = blobURL;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      });
+  };
   return (
     <div className="home">
       <div className="about">
@@ -15,6 +32,14 @@ function Home() {
           <FontAwesomeIcon icon={faReact} />
           <CodeIcon />
         </div>
+        <button
+          className="cv-button"
+          onClick={() => {
+            downloadFileAtURL(PDF_FILE_URL);
+          }}
+        >
+          Download CV
+        </button>
       </div>
       <div className="skills">
         <h1 className="skillHome">Skills</h1>

@@ -6,13 +6,10 @@
   align-items: center;
   flex-direction: column;
 }
-.projects .projectTitle {
-  text-align: center;
-  color: #3e497a;
-  font-size: 60px;
-  font-weight: bolder;
-}
 
+.projects .tituloProjects {
+  font-size: 38px;
+}
 .projectList {
   width: 70vw;
   height: auto;
@@ -29,7 +26,10 @@
   height: 300px;
   margin: 40px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  align-items: center;
   text-align: center;
+  font-size: 12px;
+  
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -47,9 +47,6 @@
   background-size: cover;
 }
 
-.projectItem .tituloProjects {
-  font-size: 25px;
-}
 
 @media only screen and (max-width: 1300px) {
   .projectList {
