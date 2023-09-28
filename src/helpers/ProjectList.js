@@ -14,6 +14,6 @@ export const ProjectList = [
     image: project2,
     skills: "ReactJS, CSS, API",
     gitHub: "https://github.com/EdwinAMG/Pokemon-Web",
-    web: "https://edwinamg.github.io/Pokemon-Web/",
+    web: "edwinamg.github.io/Pokemon-Web/",
   },
 ];

@@ -10,7 +10,7 @@ const PDF_FILE_URL =
 function Home() {
   const downloadFileAtURL = (url) => {
     fetch(url)
-      .then((response) => response.blob)
+      .then((response) => response.blob())
       .then((blob) => {
         const blobURL = window.URL.createObjectURL(new Blob([blob]));
         const fileName = url.split("/").pop();
