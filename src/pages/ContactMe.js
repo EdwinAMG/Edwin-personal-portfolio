@@ -41,7 +41,7 @@ const ContactMe = () => {
         </p>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
-            <ul>
+            <ul className="contactForm">
               <li className="half">
                 <input
                   placeholder="Name"
@@ -50,7 +50,7 @@ const ContactMe = () => {
                   required
                 />
               </li>
-              <li>
+              <li className="half">
                 <input
                   placeholder="Email"
                   type="email"
@@ -58,14 +58,14 @@ const ContactMe = () => {
                   required
                 />
               </li>
-              <li>
+              <li className="half">
                 <textarea
                   placeholder="Message"
                   name="message"
                   required
                 ></textarea>
               </li>
-              <li>
+              <li className="half">
                 <input type="submit" className="flat-button" value="SEND" />
               </li>
             </ul>

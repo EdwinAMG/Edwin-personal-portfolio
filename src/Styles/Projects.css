@@ -47,7 +47,7 @@
   background-size: cover;
 }
 
-.projectItem h1 {
+.projectItem .tituloProjects {
   font-size: 25px;
 }
 
