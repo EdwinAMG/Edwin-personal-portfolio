@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import MicrosoftIcon from "@mui/icons-material/Microsoft";
+import teams from "../assets/teams3.png";
 import "../Styles/Footer.css";
 
 function Footer() {
@@ -20,11 +20,11 @@ function Footer() {
           <GitHubIcon />
         </a>
         <a
-          href="https://teams.microsoft.com/l/chat/0/0?users=edwin.monsalve@eia.edu.co"
+          href='https://teams.microsoft.com/l/chat/0/0?users="edwin.monsalve@eia.edu.co"'
           target="_blank"
           rel="noreferrer"
         >
-          <MicrosoftIcon />
+          <img className="teamsLogo" src={teams} alt="Teams" />
         </a>
       </div>
       <p> &copy;2023 Edwin Monsalve</p>

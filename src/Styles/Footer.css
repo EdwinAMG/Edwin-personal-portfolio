@@ -10,6 +10,15 @@
   margin-top: 200px;
 }
 
+.socialMedia .teamsLogo{
+  height: 65px;
+  width: 85px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  filter: invert(100%);
+}
+
 .socialMedia svg {
   color: white;
   margin: 20px;
@@ -21,8 +30,61 @@
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .footer svg {
     font-size: 50px;
+  }
+  .socialMedia .teamsLogo{
+    height: 50px;
+    width: 60px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 383px) {
+
+  .footer{
+    height: 150px;
+  }
+  .footer svg {
+    font-size: 30px;
+  }
+  .socialMedia .teamsLogo{
+    height: 35px;
+    width: 40px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  .footer{
+    height: 150px;
+  }
+  .footer svg {
+    font-size: 50px;
+  }
+  .socialMedia .teamsLogo{
+    height: 55px;
+    width: 60px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+  }
+}
+@media only screen and (max-width: 300px) {
+
+  .footer{
+    height: 150px;
+  }
+  .footer svg {
+    font-size: 30px;
+  }
+  .socialMedia .teamsLogo{
+    height: 35px;
+    width: 40px;
+    margin-bottom: 14px;
+    margin-left: 12px;
   }
 }
