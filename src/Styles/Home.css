@@ -171,7 +171,7 @@
   }
 }
 
-@media only screen and (max-width: 326px) {
+@media only screen and (max-width: 340px) {
 
   .about{
     height: calc(80vh - 80px);
@@ -260,7 +260,8 @@
     padding: 8px 16px;
   }
 }
-@media only screen and (min-width: 502px) {
+
+@media only screen and (min-width: 500px) {
   .about{
     height: calc(80vh - 80px);
   }
@@ -286,7 +287,7 @@
   }
   .skills .skillHome {
     font-size: 48px;
-    margin-top: 150px;
+    margin-top: 200px;
   }
   
   .skills .type {
@@ -294,4 +295,170 @@
     text-align: center;
   }
 }
+
+/*Esto es para la altura*/
+@media only screen and (max-height:575px) {
+  .about{
+    height: calc(92vh - 92px);
+  }
+  
+  .about .presentacion {
+    font-size: 34px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .prompt svg {
+    font-size: 30px;
+    margin: 5px;
+  }
+  .cv-button{
+    font-size: 11px;
+    padding: 10px 13px;
+  }
+  .skills {
+    text-align: center;
+    height: calc(100vh - 100px);
+  }
+  .skills .skillHome {
+    font-size: 38px;
+    margin-top: 240px;
+  }
+  
+  .skills .type {
+    font-size: 30px;
+    text-align: center;
+  }
+  .skills .h1{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-height: 423px) {
+  .about{
+    height: calc(160vh - 160px);
+  }
+  
+  .about .presentacion {
+    font-size: 34px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .prompt svg {
+    font-size: 30px;
+    margin: 5px;
+  }
+  .cv-button{
+    font-size: 11px;
+    padding: 10px 13px;
+  }
+  .skills {
+    text-align: center;
+    height: calc(180vh - 180px);
+  }
+  .skills .skillHome {
+    font-size: 38px;
+    margin-top: 240px;
+  }
+  
+}
+
+@media only screen and (max-height: 350.5px) {
+  .about{
+    height: calc(200vh - 200px);
+  }
+  
+  .about .presentacion {
+    font-size: 34px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .prompt svg {
+    font-size: 30px;
+    margin: 5px;
+  }
+  .cv-button{
+    font-size: 11px;
+    padding: 10px 13px;
+  }
+  .skills {
+    text-align: center;
+    height: calc(220vh - 220px);
+  }
+  .skills .skillHome {
+    font-size: 38px;
+    margin-top: 200px;
+  }
+  
+}
+
+@media only screen and (max-height: 253.5px) {
+  .about{
+    height: calc(270vh - 270px);
+  }
+  
+  .about .presentacion {
+    font-size: 34px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .skills {
+    text-align: center;
+    height: calc(400vh - 400px);
+  }
+  .skills .skillHome {
+    font-size: 38px;
+    margin-top: 230px;
+  }
+}
+
+
+@media only screen and (max-height: 198.5px) {
+  .about{
+    height: calc(700vh - 700px);
+  }
+  
+  .about .presentacion {
+    font-size: 32px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+    font-size: 18px;
+    width: 80%;
+  }
+  .skills {
+    text-align: center;
+    height: calc(1200vh - 1200px);
+  }
+  .skills .skillHome {
+    font-size: 38px;
+    margin-top: 230px;
+  }
+}
+
 
