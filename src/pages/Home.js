@@ -47,8 +47,7 @@ function Home() {
           <li className="item">
             <h2 className="type">Front-End</h2>
             <span className="h1">
-              ReactJS, CSS, React Native, HTML, MaterialUi, StyledComponents,
-              contentFul
+              ReactJS, CSS, React Native, HTML, MaterialUi, contentFul
             </span>
           </li>
           <li className="item">

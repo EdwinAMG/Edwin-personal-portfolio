@@ -7,7 +7,7 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(120vh - 120px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@
 
 .about .presentacion {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   color: #e9d35b;
   height: 50px;
   margin-top: -20px;
@@ -44,21 +44,27 @@
   align-items: center;
   text-align: center;
   height: calc(120vh - 120px);
+  
 }
 
 .skills .skillHome {
   color: #3e497a;
-  margin-top: 170px;
+  margin-top: 190px;
+  margin-right: 15px;
+  font-size: 60px;
 }
 
 .skills .listHome {
   list-style: none;
   width: 60%;
-  align-items: center;
+  font-size: 30px;
+  margin-right: 50px;
 }
 
 .skills .h1 {
   font-size: 20px;
+  display: inline-block;
+ 
 }
  .cv-button{
   color: #ffd700;
@@ -81,6 +87,7 @@
   transition: 0.3s ease-in;
   cursor: pointer;
 }
+
 @media only screen and (max-width: 500px) {
   .about{
     height: calc(80vh - 80px);
@@ -116,6 +123,10 @@
     text-align: center;
     margin-left: -40px;
   }
+  
+  .skills .listHome{
+    margin-left: 27px;
+  }
   .skills .h1 {
     text-align: center;
     font-size: 19px;
@@ -130,6 +141,9 @@
 
   .about{
     height: calc(80vh - 80px);
+  }
+  .skills .listHome{
+    margin-left: 50px;
   }
   
   .about .presentacion {
@@ -155,7 +169,7 @@
     font-size: 38px;
     margin-top: 190px;
   }
-  
+ 
   .skills .type {
     font-size: 30px;
     text-align: center;
@@ -164,12 +178,26 @@
   .skills .h1 {
     text-align: center;
     font-size: 17px;
+    margin-right: 60px;
   }
   .cv-button{
     font-size: 10px;
     padding: 8px 16px;
   }
 }
+@media only screen and (max-width: 500px) {
+ 
+  .skills .h1{
+    margin-right: 40px;
+  }
+}
+@media only screen and (min-width: 190px) and (max-width:292px){
+  .skills .h1{
+    margin-right: 50px;
+    display:list-item;
+  }
+}
+
 
 @media only screen and (max-width: 340px) {
 
@@ -261,9 +289,9 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) and (max-width:1200px){
   .about{
-    height: calc(80vh - 80px);
+    height: calc(90vh - 90px);
   }
   
   .about .presentacion {
@@ -295,6 +323,7 @@
     text-align: center;
   }
 }
+
 
 /*Esto es para la altura*/
 @media only screen and (max-height:575px) {
@@ -407,6 +436,7 @@
   }
   
 }
+
 
 @media only screen and (max-height: 253.5px) {
   .about{
